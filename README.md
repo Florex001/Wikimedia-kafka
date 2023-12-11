@@ -17,6 +17,14 @@ ez listázza majd ki a topicot ha szeretnéd de képes rá az alkalmazás:
 
         .\bin\windows\kafka-console-consumer.bat --topic wikimedia-stream --from-beginning --bootstrap-server 127.0.0.1:9092
 
+### Mongo adatbázis létrehozása
+
+hozz létre a compassban egy adatbázist pl: "kafka"
+
+        mongodb://localhost:27017/kafka
+
+ez legyen az elérése
+
 ## Működése
 
 Kafka innen szedi az adatokat:
